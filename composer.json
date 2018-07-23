@@ -1,7 +1,6 @@
 {
 	"name": "germania-kg/orders",
-	"description": "Work with Orders: Interfaces, Traits, FilterIterator",
-
+	"description": "Interfaces and Traits for Order numbers",
 	"license": "MIT",
 
 	"authors": [
