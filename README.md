@@ -1,13 +1,16 @@
 # Germania KG · Orders
 
 
-[![Build Status](https://travis-ci.org/GermaniaKG/Orders.svg?branch=master)](https://travis-ci.org/GermaniaKG/Orders)
+[![Packagist](https://img.shields.io/packagist/v/germania-kg/orders.svg?style=flat)](https://packagist.org/packages/germania-kg/orders)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/orders.svg)](https://packagist.org/packages/germania-kg/orders)
+[![Build Status](https://img.shields.io/travis/GermaniaKG/Orders.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/Orders)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/Orders/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Orders/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/Orders/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Orders/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/Orders/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Orders/build-status/master)
 
 
-## Installation
+
+## Installation with Composer
 
 ```bash
 $ composer require germania-kg/orders
@@ -96,9 +99,11 @@ $ composer install
 
 ## Unit tests
 
-Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) like this:
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
 
 ```bash
+$ composer test
+# or
 $ vendor/bin/phpunit
 ```
 
